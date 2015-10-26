@@ -187,6 +187,8 @@ git merge master --no-ff
 
 （複数のプロジェクトが同時に進行しているため、GitHub上の作業が流れてしまうのを防ぐためです）
 
+![](https://raw.githubusercontent.com/iro-dori/welcome/master/images/pr-slack.png)
+
 #### ◆ issueの完了
 gitでcommit時のメッセージとして「fixed #000」と入れておいてください。
 
