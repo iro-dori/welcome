@@ -126,7 +126,7 @@ usersテーブルにtemporary_key（string, null: false）を追加
 
 ### ■ 作業開始から終了まで
 
-基本的に以下の流れを繰り返す形で作業を進めていきます。
+基本的にGit-Flowの流れに則った形で作業を進めていきます。
 
 - issueに作業内容を登録
 - 作業用ブランチ作成
@@ -171,6 +171,8 @@ gitでcommit時のメッセージとして「fixed #000」と入れておいて�
 こうしておくことで、masterにmergeされた時点でissueが自動的にcloseされます。
 
 自動的にissueをcloseしたくない場合には、「#000」とだけ書いておけばissueに関連づけられます。
+
+![](https://raw.githubusercontent.com/iro-dori/welcome/master/images/issue-log.png)
 
 
 ### ■ テストコードについて
