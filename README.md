@@ -146,7 +146,7 @@ usersテーブルにtemporary_key（string, null: false）を追加
 
 ### ■ 作業開始から終了まで
 
-基本的にGit-Flowの流れに則った形で作業を進めていきます。
+基本的にgit-flowの流れに則った形で作業を進めていきます。
 
 - issueに作業内容を登録
 - 作業用ブランチ作成
@@ -160,7 +160,7 @@ usersテーブルにtemporary_key（string, null: false）を追加
 #### ◆ 利用するブランチ
 初期開発完了（受託開発であれば納品まで。サービスであれば初期ローンチまで）はmasterブランチをmerge先のブランチとします。
 
-issueの対応を行う際にはGit-Flowに則り「features/your-task」のような形で新しくmasterからブランチを作成して作業を開始してください。
+issueの対応を行う際にはgit-flowに則り「features/your-task」のような形で新しくmasterからブランチを作成して作業を開始してください。
 
 1つのブランチで複数のissueを対応しても問題ありませんが、多く詰め過ぎるとmergeが面倒になるので最大3つのissueを目処にしてください。
 
