@@ -119,7 +119,7 @@ usersテーブルにtemporary_key（string, null: false）を追加
 
 実装時期が未定だったり、実装自体するか検討中のissueについては「Backlog」マイルストーンを設定してください（なければ作成してください）。
 
-![](https://raw.githubusercontent.com/iro-dori/welcome/master/images/milestone.png)
+![](https://raw.githubusercontent.com/iro-dori/welcome/master/images/milestones.png)
 
 ##### 担当者（Assignee）
 担当者が決まっている場合は指定すること。
