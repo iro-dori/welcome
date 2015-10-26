@@ -52,20 +52,28 @@
 Ruby on Railsをそのまま利用しますが、APIのみ提供するプロジェクトの場合にはgrapeと組み合わせて利用することもあります。
 
 #### ◆ JavaScript
+![](http://justdevign.com.au/wp-content/uploads/2014/08/CoffeeScript_Logo_128.png)
+
 JavaScriptを直接記述するのは極力避け、CoffeeScriptで記述します。
 
 #### ◆ テンプレートエンジン
+![](http://haml.info/images/haml.png)
+
 [Haml](http://haml.info/)を利用します。
 
 #### ◆ スタイリング
+![](https://dynamicimagesfr-v2b.netdna-ssl.com/product_class_external_product/sass.png)
+
 SASS（SCSS）で記述します。
 
 CSSのフレームワークとしては[Bootstrap 3](http://getbootstrap.com/)や[Foundation](http://foundation.zurb.com/)を利用します。
 
+![](http://www.w3schools.com/bootstrap/bs.png) ![](http://31.media.tumblr.com/avatar_3865d3a8accc_128.png)
+
 
 ### ■ ソースコードの管理について
 
-![](https://raw.githubusercontent.com/iro-dori/welcome/master/images/GitHub_Logo.png)
+![](http://kykamath.github.io/images/github.png)
 
 [GitHub](https://github.com/)を利用します。
 
