@@ -164,6 +164,8 @@ issueの対応を行う際にはGit-Flowに則り「features/your-task」のよ�
 
 1つのブランチで複数のissueを対応しても問題ありませんが、多く詰め過ぎるとmergeが面倒になるので最大3つのissueを目処にしてください。
 
+![](http://joefleming.net/images/posts/git-flow-timeline.png)
+
 #### ◆ ローカルでのmergeについて
 作業用ブランチにmasterをmergeするタイミングなど、ローカルでmerge作業を行う際には必ず「--no-ff」を指定してください。
 
