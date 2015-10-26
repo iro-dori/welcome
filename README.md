@@ -91,7 +91,7 @@ GitHubのIssue機能を利用して行います。
 #### マイルストーンの命名規約
 
 ```ruby
-    "v#{Date.today.beginning_of_week.strftime('%Y%m%d')}-#{Date.today.end_of_week.strftime('%Y%m%d')}"
+"v#{Date.today.beginning_of_week.strftime('%Y%m%d')}-#{Date.today.end_of_week.strftime('%Y%m%d')}"
 # 例). v20151026-20151101
 ```
 
