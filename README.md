@@ -34,6 +34,17 @@
 
 ## 開発の進め方について
 
+### ソースコードの管理について
+
+![](https://github.com/iro-dori/welcome/blob/master/images/GitHub_Logo.png)
+
+[GitHub](https://github.com/)を利用します。
+
+実装を行わない方もissueの登録等でレポジトリを閲覧できる必要がありますので、アカウントを持っていない場合は作成してください。
+
+また、セキュリティレベル向上のためアカウント作成後に二段階認証を有効にしてください。
+
+
 ### 進捗管理
 
 GithubのIssue機能を利用して行います。
