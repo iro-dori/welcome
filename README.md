@@ -171,6 +171,8 @@ usersテーブルにtemporary_key（string, null: false）を追加
 
 基本的にgit-flowの流れに則った形で作業を進めていきます。
 
+参考 : [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
+
 - issueに作業内容を登録
 - 作業用ブランチ作成
 - 実装作業
@@ -211,6 +213,18 @@ git merge master --no-ff
 （複数のプロジェクトが同時に進行しているため、GitHub上の作業が流れてしまうのを防ぐためです）
 
 ![](https://raw.githubusercontent.com/iro-dori/welcome/master/images/pr-slack.png)
+
+プルリクエストに記述する内容は、例えば以下のようなものにするとレビュー担当者が楽かもしれません。
+
+- このプルリクエストは何なのか？
+- どこからチェックし始めればいいのか？（例えば起点/中心となるクラス）
+- どうやってテストすればいいのか？
+- 実装の背景となることで何か特筆すべきことがあれば記述
+- （もしあれば）関連するissue
+- スクリーンショット
+- 質問事項（実装方針に関することや、いつマージすべきか、など）
+
+参考 : [Pull request templates make code review easier](https://quickleft.com/blog/pull-request-templates-make-code-review-easier/)
 
 #### ◆ issueの完了
 gitでcommit時のメッセージとして「fixed #000」と入れておいてください。
