@@ -77,10 +77,38 @@ Ruby on Railsをそのまま利用しますが、APIのみ提供するプロジ�
 
 JavaScriptを直接記述するのは極力避け、CoffeeScriptで記述します。
 
+##### ▲ スタイルガイド
+クラス名/関数名はCamelCaseを基本とします。
+
+```coffeescript
+# Good
+class HelloWorld
+
+  sayHello: ->
+    alert 'hi!'
+
+# Bad
+class hello_world
+  say_hello: ->
+    alert 'hi'
+```
+
 #### ◆ テンプレートエンジン
 ![](http://haml.info/images/haml.png)
 
 [Haml](http://haml.info/)を利用します。
+
+##### ▲ スタイルガイド
+'='の後には必ず半角spaceを1つ入れてください。
+
+```haml
+-# Good
+%p= @variable
+
+-# Bad
+%p=@variable
+```
+
 
 #### ◆ スタイリング
 ![](https://dynamicimagesfr-v2b.netdna-ssl.com/product_class_external_product/sass.png)
@@ -90,6 +118,9 @@ SASS（SCSS）で記述します。
 CSSのフレームワークとしては[Bootstrap 3](http://getbootstrap.com/)や[Foundation](http://foundation.zurb.com/)を利用します。
 
 ![](http://www.w3schools.com/bootstrap/bs.png) ![](http://31.media.tumblr.com/avatar_3865d3a8accc_128.png)
+
+##### ▲ スタイルガイド
+[Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)に準拠します。
 
 
 ### ■ ソースコードの管理について
