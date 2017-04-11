@@ -70,6 +70,8 @@ Slack上の `#daily-report` にて、作業内容（作業したissueやPRのURL
 #### ◆ バックエンド
 Ruby on Rails（2017年4月時点では5.0.2）をそのまま利用しますが、APIのみ提供するプロジェクトの場合にはgrapeと組み合わせて利用することもあります。
 
+コーディング規約については最近のレポジトリであればRubocopを利用してチェックを行っています。
+
 #### ◆ JavaScript
 ![](http://justdevign.com.au/wp-content/uploads/2014/08/CoffeeScript_Logo_128.png)
 
