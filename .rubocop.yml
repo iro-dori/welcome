@@ -1,0 +1,57 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - bin/*
+    - db/schema.rb
+    - db/migrate/*
+    - vendor/**/*
+    - spec/factories/*
+    - spec/support/irodori_helper.rb
+    - config/*
+    - config/**/*
+    - config/rs/*
+    - lib/tasks/*
+    - Guardfile
+    - Gemfile
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+    Enabled: false
+
+LineLength:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+# 一旦20で...
+# デフォルトは15
+Metrics/AbcSize:
+  Max: 20
+
+FormatString:
+  EnforcedStyle: percent
+
+NumericLiterals:
+  Enabled: false
+
+# 複数の戻り値を返すことを許可する
+RedundantReturn:
+  AllowMultipleReturnValues: true
+
+# .は前の行
+DotPosition:
+  EnforcedStyle: trailing
